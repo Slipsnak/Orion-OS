@@ -1,0 +1,7 @@
+# Example script for Orion OS
+create_file example.txt
+echo "This is an example file." > ./orion_filesystem/example.txt
+read_file example.txt
+add_task "echo 'Task executed.'" 5
+list_files
+system_info
